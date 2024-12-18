@@ -1,0 +1,103 @@
+.options{
+    margin: 5%;
+    padding: 30px;
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 200px;
+    justify-content: center;
+    justify-self: center;
+}
+.quotes{
+    padding: 20px;
+    width: 30rem;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    /* text-decoration: ; */
+    height: 24rem;
+    text-align: center;
+    border-radius: 30px;
+    /* background: linear-gradient(rgb(0,0,0,0.8),rbg(0,0,0,0.8)),black; */
+    background-color: black;
+    box-shadow: rbg(0,0,0,0.8);
+    color: white;
+}
+.pbtn{
+    text-decoration: none;
+    color: black;
+    background-color: white ;
+    padding: 20px 50px ;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.stitle{
+    padding-bottom: 20px;
+    font-weight: 400;
+    background: transparent;
+}
+.title{
+    background: transparent;
+    margin-top: 3rem;
+    letter-spacing: 5px;
+    text-decoration: underline 5px;
+}
+.form-box{
+    margin:0%;
+    margin-top: 0%;
+    text-align: center;
+    /* background-color: aqua; */
+    height: 35rem;
+    padding: 10px;
+    padding-top: 0%;
+}
+.form-box p{
+   
+    /* background: linear-gradient(rbg(0,0,0,0.8),rbg(0,0,0,0.8)); */
+    padding: 30px;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+form{
+    color: darkgray;
+    text-decoration: none;
+    outline: none;
+}
+.in{
+    outline: none;
+    border: none;
+    color: darkgray;
+    font-size: 22px;
+    padding: 15px 40px;
+    /* background-color: aqua; */
+    margin: 2px;
+    display: block;
+    position: relative;
+    margin-left:15%;
+    text-decoration: underline darkgray 2px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#btn{
+    font-size: 35px;
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#msg{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    background: transparent;
+}

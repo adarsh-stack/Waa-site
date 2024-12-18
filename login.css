@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),url(images/PROGRAM.webp);
+    /* background-image: none; */
+    background-attachment: fixed;
+    background-attachment: no-repeat;
+    background-size: 100% 100%;
+    /* backdrop-filter: brightness(40%); */
+    box-shadow: inset 20px;
+    /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ; */
+    
+    
+    /* width: 100%; */
+    /* position: ; */
+    /* pl */
+    /* height: 100%; */
+    /* backdrop-filter: url(commonfilters.svg#filter);
+    backdrop-filter: brightness(50%);
+    backdrop-filter: blur(30%); */
+    /* opacity:0.7 ; */
+
+
+}
+/* img{
+    background-image: none;
+    background-attachment: fixed;
+    width: 100%;
+    /* position: ; */
+    /* pl */
+    /* height: 705px; */
+    /* backdrop-filter: url(commonfilters.svg#filter);
+    backdrop-filter: brightness(50%);
+    backdrop-filter: blur(30%); */
+    /* opacity:0.7 ; */ */
+
+/* } */
+body div{
+    margin-top: 6%;
+
+}
+#fg{
+    /* width: px; */
+    height: 66px;
+    margin-top: 3% ;   
+    margin-left: 41%;
+    /* margin-bottom: 60px; */
+    padding-top:10px;
+    border-radius: 20px;
+    /* padding-bottom: ; */
+    background-color: rgba(28, 91, 154, 0);
+
+}
+#form0{
+    text-align: center;
+    background-color: rgba(24, 24, 25, 0);
+    /* margin-left: 33%; */
+    padding-left: 0%;
+    display: block;
+    /* margin-right: 33%; */
+    /* margin-top: 20%; */
+    padding-top: 3rem;
+    padding-bottom: 0px;
+    border-radius: 20px;
+
+
+}
+#form1{
+    padding: 0%;
+    text-align: center;
+
+}
+
+form input{
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left:25%;
+    padding-right: 25%;
+    color:white;
+    background-color: rgba(98, 97, 97, 0);
+    border: 0px;
+    text-align: center;
+
+    font-size: 18px;
+    outline: none;
+    overflow: unset;
+    /* text-decoration: underline; */
+}
+
+form #button{
+    padding: 15px 70px 15px 70px;
+    background-color: rgba(6, 21, 40, 0.725);
+    border: 0px;
+    color: rgb(202, 202, 202);
+    font-size: 15px;
+    border-radius: 100px;
+
+}
+input:hover, input:active{
+    font-size: 20px;
+
+}
+#button :focus-visible, #button:active{
+    background-color: bisque;
+}
+hr{
+    border: 1px solid white;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 100px;
+    
+}
+form ::-webkit-input-placeholder{
+    color: aliceblue;
+}
